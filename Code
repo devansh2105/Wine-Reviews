@@ -1,0 +1,32 @@
+---
+title: "Project1"
+author: "Group"
+date: "2/11/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE) ## Keep this, it sets up options for the rest of the document
+```
+
+##Setup
+
+```{r}
+#setup
+#install.packages("ggplot2")
+#install.packages("mosaic")
+#install.packages("dplyr")
+
+library(ggplot2)
+library(mosaic)
+library(dplyr)
+
+# The csv file should be imported into rstudio:
+AmesHousing <- read.csv("https://raw.githubusercontent.com/ds4stats/r-tutorials/master/data-viz/data/AmesHousing.csv")
+str(AmesHousing)
+```
+
+## Question 1
+
+```{r}
+```
