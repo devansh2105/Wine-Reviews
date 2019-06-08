@@ -1,2 +1,2 @@
 # WineReviews
-Introduction to Data Science Project 1
+Project in R to compare the wine reviews
